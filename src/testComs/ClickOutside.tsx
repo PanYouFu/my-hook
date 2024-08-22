@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import { useClickOutside } from '../hooks/useClickOutside'
 
 const ClikcOutsideTester = () => {
