@@ -2,14 +2,16 @@ import IsMountedTester from './testComs/IsMounted'
 import ClikcOutsideTester from './testComs/ClickOutside'
 import ArrayTester from './testComs/Array'
 import './App.css'
+import FocusTester from './testComs/Focus'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <IsMountedTester />
+        {/* <IsMountedTester /> */}
         {/* <ClikcOutsideTester /> */}
-        <ArrayTester />
+        {/* <ArrayTester /> */}
+        <FocusTester />
       </header>
     </div>
   )
