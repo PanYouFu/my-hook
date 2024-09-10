@@ -3,6 +3,7 @@ import ClikcOutsideTester from './testComs/ClickOutside'
 import ArrayTester from './testComs/Array'
 import './App.css'
 import FocusTester from './testComs/Focus'
+import { PhoneNumberInput } from './components/PhoneNumberInput'
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
         {/* <IsMountedTester /> */}
         {/* <ClikcOutsideTester /> */}
         {/* <ArrayTester /> */}
-        <FocusTester />
+        {/* <FocusTester /> */}
+        <PhoneNumberInput />
       </header>
     </div>
   )
